@@ -18,7 +18,7 @@ jobs:
     steps:
     #Step to checkout the repository code
     - name: Checkout code
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
     #Steps to login to Docker Hub using Docker Hub credentials
     - name: Login to Docker Hub
