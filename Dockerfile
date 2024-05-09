@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 #  Install dependencied
-RUN nmp install
+RUN npm install
 
 # copy the rest of the appliation code to the working directory
 COPY . .
